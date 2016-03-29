@@ -1,0 +1,20 @@
+{
+	"box": "brti/vivid-lemp",
+	"name": null,
+	"public_key": "~/.ssh/id_rsa.pub",
+	"os_type": "Ubuntu_64",
+	"ip_address": "192.168.10.170",
+	"memory": 2048,
+	"cpus": 1,
+	"provider": "virtualbox",
+	"provision": "./provision.sh",
+	"folders": [
+		{
+			"map": "./",
+			"to": "/home/vagrant/vle"
+		}
+	],
+	"keys": [
+		"~/.ssh/id_rsa"
+	]
+}

@@ -1,0 +1,224 @@
+/* CSS Document */
+
+#loginForm{
+	
+}
+#loginForm button, #loginForm input{
+	margin-left:auto;
+	margin-right:auto;
+	width:95%;
+	height:25px;
+	padding:5px;
+}
+
+#loginForm #loginbutton{
+	border:none;
+	border-radius:2px;
+	width:95%;
+	font-size:13px;
+    font-weight:5;
+	color:white;
+	cursor:pointer;
+	margin-top:1px;
+	padding-bottom:20px;
+	background-color:#428bca;
+	border-radius:2px;	
+	margin-left:10px;
+}
+#loginForm #loginbutton:hover{
+	background-color:#3277b3;
+}
+	
+#loginFormContainer .field{
+	margin:0 auto;
+	padding:5px;
+}
+.inline{
+	display:inline-block;	
+}
+#loginForm checkbox{
+	float:left;
+}
+.floatElement{
+	height:20px;	
+}
+#checkLabel{
+	font-size:12px;
+	color:#888;
+	display:inline-block;	
+}
+#checkBox{
+	display:inline-block;	
+}
+.formHeader{
+	font-size:20px;
+	padding:10px 0 10px 0;	
+}
+
+#regForm input[type=text], input[type=password], #regForm input[type=submit], select{
+	display:block;	
+	width:70%;
+	padding:5px;
+	margin: 10px 0px 10px 0px;
+}
+#regForm input[type=submit]{
+	height:35px;
+	border:none;
+	background-color:#428bca;
+	color:white;	
+}
+#regForm label{
+	font-size:14px;
+}
+#regForm select{
+	font-size:20px;	
+}
+
+#moduleForm input[type=text], #moduleForm input[type=submit], #staffForm input[type=submit], select{
+	display:block;	
+	width:70%;
+	padding:5px;
+	margin: 10px 0px 10px 0px;
+}
+#moduleForm input[type=submit]{
+	height:35px;
+	border:none;
+	background-color:#428bca;
+	color:white;	
+}
+#moduleForm label{
+	font-size:14px;
+}
+
+#courseForm input[type=text], #courseForm input[type=submit], select{
+	display:block;	
+	width:70%;
+	padding:5px;
+	margin: 10px 0px 10px 0px;
+}
+#courseForm input[type=submit]{
+	height:35px;
+	border:none;
+	background-color:#428bca;
+	color:white;	
+}
+#courseForm label{
+	font-size:14px;
+}
+
+#staffForm{
+	background-color:white;
+	padding:10px;
+	width: 30%;
+}
+
+#staffForm input[type=text], select{
+	width:90%;
+	padding:5px;
+	margin: 10px 0px 10px 0px;	
+}
+#staffForm label{
+	font-size:14px;
+}
+#staffForm select{
+	font-size:20px;	
+}
+#staffForm input[type=submit]{
+	height:35px;
+	border:none;
+	background-color:#428bca;
+	color:white;	
+}
+
+#mainFeedForm{
+	padding:10px;
+	background-color:white;
+	margin-bottom:7px;
+	border: 1px solid #DDD;	
+}
+
+#mainFeed #feedPost:focus{
+	outline:none;	
+}
+#mainFeedForm #feedPost{
+	vertical-align:top;
+	width:70%;
+	margin:none;
+	display:inline-block;
+	padding:15px;
+	resize:none;
+	min-height:32px;
+	border:none;
+	border-left:1px solid #AAA;	
+}
+#feedFormButtons{
+	width:20%;
+	display:inline-block;	
+}
+#mainFeedSubmit, #feedUploadAlias{
+	height:30px;
+	margin-bottom:3px;
+	border:none;
+	background-color:#428bca;
+	color:white;
+	width:100%;
+	cursor:pointer;
+}
+#feedUp{
+	display:none;	
+}
+
+#mainFeedReplyForm .replyPost{
+	vertical-align:top;
+	width:70%;
+	margin-bottom:10px;
+	padding:5px;
+	resize:none;
+	display:inline-block;
+	border:none;
+	border-left:1px solid #DDD;
+	border-top:1px solid #DDD;	
+	border-bottom:1px solid #DDD;
+}
+#replyButtonCont{
+	padding-right:5px;
+	display:inline-block;
+	width:20%;
+	border-top:1px solid #DDD;	
+	border-bottom:1px solid #DDD;
+	border-right:1px solid #DDD;
+	margin-left:-4px;
+}
+#mainFeedReplySubmit{
+	width:100%;
+	height:30px;
+	margin-bottom:3px;
+	border:none;
+	background-color:#428bca;
+	color:white;
+	cursor:pointer;
+	margin-top:3px;
+}
+.replyPost:focus{
+	outline:none;
+}
+
+.colour::-webkit-input-placeholder{
+	color:#09F;
+}
+
+#institutionReg input[type=text],#institutionReg input[type=password], #institutionReg input[type=submit], #institutionReg input[type=submit], select{
+	display:block;	
+	width:70%;
+	padding:5px;
+	margin: 10px 0px 10px 0px;
+}
+#institutionReg input[type=submit]{
+	height:35px;
+	border:none;
+	background-color:#428bca;
+	color:white;	
+}
+#institutionReg label{
+	font-size:14px;
+}

@@ -1,0 +1,122 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+	curser:pointer;	
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color:#ffefed;
+}
+#navContainer{
+	max-width:1150px;
+	width:75%;
+	margin: 0 auto;	
+}
+.navBar{
+	z-index:900;
+	width:100%;
+	height:60px;
+	background-color:white;	
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16);
+}
+#buttons, #register, #login, #title{
+	display:inline-block;
+	padding:3px;
+}
+#buttons{	
+	float:right;	
+}
+#register{	
+}
+#login{
+	float:left;
+}
+#title{
+	
+}
+.title a{
+	color:black;
+}
+.title{
+	float:left;
+	font-size:30px;
+	letter-spacing:-1px;
+	margin-top:11px;	
+}
+.navButton a{
+	color:white;	
+}
+.navButton:hover{
+	background-color:#3277b3;
+}
+.navButtonGray p:hover, #loginBtn:hover{
+	color:#428bca;
+}
+.navButton{
+	font-weight:5;
+	color:white;
+	cursor:pointer;
+	margin-top:1px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:12px;
+	padding-right:12px;
+	background-color:#428bca;
+	border-radius:2px;	
+	margin-left:10px;
+}
+.navButtonGray{
+	display:inline-block;
+	color:#888;
+	cursor:pointer;
+	margin-top:-4px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:2px;	
+}
+#loginOverlay{
+	z-index:999;
+	display:none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.50);	
+}
+#loginBtn:focus { outline:none }
+#loginBtn{
+	font-size:14px;
+	color:#888;
+	cursor:pointer;
+	margin-top:-4px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:2px;
+	border:none;
+	background-color:white;
+}
+#loginForm{
+	background-color:white;
+}
+#loginFormContainer{
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16);
+	width:20%;
+	background-color:white;
+	margin:0 auto;
+	margin-top:140px;
+	padding:15px;
+	border-radius:3px;	
+}
+
+
+
+@media only screen and (max-width: 830px) {
+
+}

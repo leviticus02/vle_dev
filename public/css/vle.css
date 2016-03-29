@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#vleContainer{
+	padding:10px;
+	width:90%;
+	max-width:1200px;
+	margin:0 auto;	
+}
+
+#modulePageInformation{
+	float:right;
+	width:77%;
+	margin-top:20px;	
+}
+
+#moduleFeed{
+	vertical-align:top;
+	display:inline-block;
+	width:70%;
+}
+#quickLinks{
+	width:25%;
+	padding:10px;
+	vertical-align:top;
+	display:inline-block;
+	background-color:white;
+	margin: 0px 0 0 10px;
+	border: 1px solid #DDD;
+}
+#moduleFeedContainer{
+	margin-bottom:50px;	
+}
+#moduleFormContainer{
+		
+}
+#moduleFeedForm{
+	pading:20px;
+	width:100%;
+}
+#moduleFeedInput:focus, #moduleFeedSubmit:focus{
+	outline:none;
+}
+#moduleFeedInput{
+	display:inline-block;
+	vertical-align:top;
+	width:70%;
+	height:30px;
+	word-wrap:break-word;
+	word-break: break-word;
+	overflow:auto;
+	padding:10px;	
+}
+#moduleFeedSubmit{
+	float:right;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:1px;
+	cursor:pointer;
+	color:white;
+	background-color:#428bca;
+	width:24%;
+	height:52px;
+	border:none;
+}
+
+#moduleFeedSubmit:disabled{
+	cursor:not-allowed;
+	color:#AAA;	
+}
+
+#Delete{
+	display:inline-block;
+	float:right;
+	color:#BBB;
+}
+#x, #edit, #moduleFeedComments{
+	color:#BBB;
+	border:none;
+	background-color:white;
+	padding:0 5px 0 0px;
+	font-size:14px;
+	cursor:pointer;
+}
+#x:focus, #edit:focus, #moduleFeedComments:focus{
+	outline:none;
+}
+
+#x:hover, #edit:hover{
+	color:#777;
+}
+#moduleFeedComments:hover{
+	text-decoration:underline;	
+}
+#subText, .subText{
+	font-size:13px;
+	color:#AAA;	
+}
+#PostedBy{
+	display:inline-block;	
+}
+#postBody{
+	padding: 10px 10px 10px 0;	
+}
+#moduleFeedcommentInput:focus{
+	outline:none;
+}
+#moduleFeedCommentSubmit{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:1px;
+	cursor:pointer;
+	color:white;
+	background-color:#428bca;
+	height:34px;
+	border:none;
+	padding:10px;
+	margin-top:5px;	
+	width:8%;
+	min-width:45px;
+}
+#moduleFeedcommentInput{
+	display:inline-block;
+	vertical-align:top;
+	width:78%;
+	height:10px;
+	word-wrap:break-word;
+	word-break: break-word;
+	overflow:auto;
+	padding:10px;
+	margin-top:5px;	
+}
+#commentCont{
+	margin-left:1%;
+	margin-top:20px;
+	padding-left:1%;
+	border-left:1px solid #09F;
+}
+#commentOptions{
+	display:inline-block;
+}
+@media only screen and (max-width: 830px) {
+	#modulePageInformation{
+		width:100%;
+		float:none;
+	}
+	#moduleFeed{
+		width:100%;	
+	}
+	#moduleFeedSubmit{
+		width:23%;
+	}
+	#quickLinks{
+		display:none;	
+	}
+}
